@@ -1,0 +1,93 @@
+{
+    "operators": [
+        {
+            "idx": 0,
+            "is_source": true,
+            "is_sink": false,
+            "name": "op_0",
+            "cpu": 10000.0,
+            "payload": 0.41919532772311113,
+            "weight": 1.0
+        },
+        {
+            "idx": 1,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_1",
+            "cpu": 129571.656887948,
+            "payload": 0.13075113709487945,
+            "weight": 1.0
+        },
+        {
+            "idx": 2,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_2",
+            "cpu": 135715.8775821657,
+            "payload": 0.289444600977997,
+            "weight": 1.0
+        },
+        {
+            "idx": 3,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_3",
+            "cpu": 89334.64985673832,
+            "payload": 0.3334266800149807,
+            "weight": 1.0
+        },
+        {
+            "idx": 4,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_4",
+            "cpu": 125377.81567314797,
+            "payload": 0.030663831959699808,
+            "weight": 1.0
+        },
+        {
+            "idx": 5,
+            "is_source": false,
+            "is_sink": true,
+            "name": "op_5",
+            "cpu": 10000.0,
+            "payload": 0.0,
+            "weight": 1.0
+        }
+    ],
+    "connections": [
+        {
+            "from_vertex": 0,
+            "to_vertex": 1,
+            "selectivity": 1.0,
+            "weight": 0.41919532772311113
+        },
+        {
+            "from_vertex": 1,
+            "to_vertex": 2,
+            "selectivity": 1.0,
+            "weight": 0.13075113709487945
+        },
+        {
+            "from_vertex": 2,
+            "to_vertex": 3,
+            "selectivity": 1.0,
+            "weight": 0.289444600977997
+        },
+        {
+            "from_vertex": 3,
+            "to_vertex": 4,
+            "selectivity": 1.0,
+            "weight": 0.3334266800149807
+        },
+        {
+            "from_vertex": 4,
+            "to_vertex": 5,
+            "selectivity": 1.0,
+            "weight": 0.030663831959699808
+        }
+    ],
+    "max_throughput": 10000,
+    "event_rate": 10000,
+    "num_vms": 2
+}

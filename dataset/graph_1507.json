@@ -1,0 +1,265 @@
+{
+    "operators": [
+        {
+            "idx": 0,
+            "is_source": true,
+            "is_sink": false,
+            "name": "op_0",
+            "cpu": 10000.0,
+            "payload": 0.4501079494708833,
+            "weight": 1.0,
+            "weighted_cpu": 10000.0
+        },
+        {
+            "idx": 1,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_1",
+            "cpu": 161449.26396468456,
+            "payload": 0.4537632756342038,
+            "weight": 0.5,
+            "weighted_cpu": 80724.63198234228
+        },
+        {
+            "idx": 2,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_2",
+            "cpu": 161449.26396468456,
+            "payload": 0.1597440104869764,
+            "weight": 0.5,
+            "weighted_cpu": 80724.63198234228
+        },
+        {
+            "idx": 3,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_3",
+            "cpu": 126719.33425102991,
+            "payload": 0.18615148452813618,
+            "weight": 0.5,
+            "weighted_cpu": 63359.667125514956
+        },
+        {
+            "idx": 4,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_4",
+            "cpu": 126719.33425102991,
+            "payload": 0.4753806114335302,
+            "weight": 0.5,
+            "weighted_cpu": 63359.667125514956
+        },
+        {
+            "idx": 5,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_5",
+            "cpu": 146136.58374785856,
+            "payload": 0.09024973731652647,
+            "weight": 0.5,
+            "weighted_cpu": 73068.29187392928
+        },
+        {
+            "idx": 6,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_6",
+            "cpu": 146136.58374785856,
+            "payload": 0.3225958685637898,
+            "weight": 0.5,
+            "weighted_cpu": 73068.29187392928
+        },
+        {
+            "idx": 7,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_7",
+            "cpu": 88106.17258575611,
+            "payload": 0.35832035956919617,
+            "weight": 0.5,
+            "weighted_cpu": 44053.086292878055
+        },
+        {
+            "idx": 8,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_8",
+            "cpu": 88106.17258575611,
+            "payload": 0.45482432360835306,
+            "weight": 0.5,
+            "weighted_cpu": 44053.086292878055
+        },
+        {
+            "idx": 9,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_9",
+            "cpu": 102499.15748564596,
+            "payload": 0.19662279156353019,
+            "weight": 0.5,
+            "weighted_cpu": 51249.57874282298
+        },
+        {
+            "idx": 10,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_10",
+            "cpu": 102499.15748564596,
+            "payload": 0.24952842906840123,
+            "weight": 0.5,
+            "weighted_cpu": 51249.57874282298
+        },
+        {
+            "idx": 11,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_11",
+            "cpu": 20211.662841341935,
+            "payload": 0.21791909115496233,
+            "weight": 0.5,
+            "weighted_cpu": 10105.831420670967
+        },
+        {
+            "idx": 12,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_12",
+            "cpu": 20211.662841341935,
+            "payload": 0.0456238220550077,
+            "weight": 0.5,
+            "weighted_cpu": 10105.831420670967
+        },
+        {
+            "idx": 13,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_13",
+            "cpu": 84877.82512368295,
+            "payload": 0.39494468723974485,
+            "weight": 0.5,
+            "weighted_cpu": 42438.91256184148
+        },
+        {
+            "idx": 14,
+            "is_source": false,
+            "is_sink": false,
+            "name": "op_14",
+            "cpu": 84877.82512368295,
+            "payload": 0.00624863913385737,
+            "weight": 0.5,
+            "weighted_cpu": 42438.91256184148
+        },
+        {
+            "idx": 15,
+            "is_source": false,
+            "is_sink": true,
+            "name": "op_15",
+            "cpu": 10000.0,
+            "payload": 0.0,
+            "weight": 1.0,
+            "weighted_cpu": 10000.0
+        }
+    ],
+    "connections": [
+        {
+            "from_vertex": 0,
+            "to_vertex": 1,
+            "selectivity": 0.5,
+            "weight": 0.22505397473544164
+        },
+        {
+            "from_vertex": 0,
+            "to_vertex": 2,
+            "selectivity": 0.5,
+            "weight": 0.22505397473544164
+        },
+        {
+            "from_vertex": 1,
+            "to_vertex": 3,
+            "selectivity": 1.0,
+            "weight": 0.2268816378171019
+        },
+        {
+            "from_vertex": 2,
+            "to_vertex": 4,
+            "selectivity": 1.0,
+            "weight": 0.0798720052434882
+        },
+        {
+            "from_vertex": 3,
+            "to_vertex": 5,
+            "selectivity": 1.0,
+            "weight": 0.09307574226406809
+        },
+        {
+            "from_vertex": 4,
+            "to_vertex": 6,
+            "selectivity": 1.0,
+            "weight": 0.2376903057167651
+        },
+        {
+            "from_vertex": 5,
+            "to_vertex": 7,
+            "selectivity": 1.0,
+            "weight": 0.045124868658263234
+        },
+        {
+            "from_vertex": 6,
+            "to_vertex": 8,
+            "selectivity": 1.0,
+            "weight": 0.1612979342818949
+        },
+        {
+            "from_vertex": 7,
+            "to_vertex": 9,
+            "selectivity": 1.0,
+            "weight": 0.17916017978459808
+        },
+        {
+            "from_vertex": 8,
+            "to_vertex": 10,
+            "selectivity": 1.0,
+            "weight": 0.22741216180417653
+        },
+        {
+            "from_vertex": 9,
+            "to_vertex": 11,
+            "selectivity": 1.0,
+            "weight": 0.09831139578176509
+        },
+        {
+            "from_vertex": 10,
+            "to_vertex": 12,
+            "selectivity": 1.0,
+            "weight": 0.12476421453420061
+        },
+        {
+            "from_vertex": 11,
+            "to_vertex": 13,
+            "selectivity": 1.0,
+            "weight": 0.10895954557748116
+        },
+        {
+            "from_vertex": 12,
+            "to_vertex": 14,
+            "selectivity": 1.0,
+            "weight": 0.02281191102750385
+        },
+        {
+            "from_vertex": 13,
+            "to_vertex": 15,
+            "selectivity": 1.0,
+            "weight": 0.19747234361987243
+        },
+        {
+            "from_vertex": 14,
+            "to_vertex": 15,
+            "selectivity": 1.0,
+            "weight": 0.003124319566928685
+        }
+    ],
+    "max_throughput": 10000,
+    "event_rate": 10000,
+    "num_vms": 3
+}
